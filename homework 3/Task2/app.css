@@ -1,0 +1,38 @@
+.body{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    left: 100%;
+    
+
+}
+.sizebar{
+    padding: 300px;
+    box-sizing: border-box;
+
+
+}
+.sizebar-item{
+    height: 40px;
+    text-align: center;
+    margin: 0px;
+    line-height: 40px;
+    position: absolute;
+
+}
+.menu{
+    position: absolute;
+    top: 0px;
+    width: 200px;
+    left: 200px;
+    display: none; /* ẩn hiển khi trỏ chuột */
+    /* invisibility */
+}
+.menu-item{
+    position: relative;
+    text-align: center;
+    height: 40px;
+
+}
+.sizebar-item:hover .menu{
+    display: block;}
